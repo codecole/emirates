@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Emirates Shopping Mall - architectural design</title>
+    <meta property="og:site_name" content="Emirates Shopping Mall - architectural design">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Emirates Shopping Mall - architectural design" />
+    <meta property="og:description" content="Emirate Shopping Mall architectural design" />
+    <!-- change og image  -->
+    <meta property="og:image" content="../www.avilis.com.ar/img/share/share.jpg" />
+    <meta property="og:url" content="home.html" />
+    <meta name="description" content="Emirates Shopping Mall - architectural design" />
+    <meta name="keywords" content="Emirates Shopping Mall - architectural design" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/fav/favicon-16x16.png">
+    <!-- change manifest -->
+    <link rel="manifest" href="https://www.avilis.com.ar/site.webmanifest">
+    <link rel="mask-icon" href="img/fav/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="icon" type="image/x-icon" href="img/fav/favicon.ico">
+
+    <meta name="msapplication-TileColor" content="#161616">
+    <meta name="theme-color" content="#161616">
+
+    <link rel="stylesheet" href="css/style3860.css?v=1">
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js??v=3.14&amp;key=AIzaSyCnpUtBVs7I-TedPFRt5d5gKAgap_s_7Bc"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                '../www.googletagmanager.com/gtm5445.html?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PQ7P23Z');
+    </script>
+
+</head>
+
+<body class="bg-body">
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PQ7P23Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+
+    <header class="header fixed top-0 left-0 w-full z-[15] flex items-center justify-between h-[20rem] m:h-[11rem] px-50 m:px-90 pointer-events-none js-header js-s-header">
+
+        <a class="header__logo block pointer-events-auto js-t-header-1" href="home" data-pagename="Home">
+            <svg width="251" height="39" viewBox="0 0 251 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M117.705 21H118.409V18.7273H119.682C119.733 18.7273 119.781 18.7273 119.83 18.7244L121.057 21H121.875L120.56 18.5966C121.301 18.3438 121.648 17.7386 121.648 16.9659C121.648 15.9375 121.034 15.1818 119.67 15.1818H117.705V21ZM118.409 18.0909V15.8068H119.648C120.591 15.8068 120.955 16.267 120.955 16.9659C120.955 17.6648 120.591 18.0909 119.659 18.0909H118.409ZM122.822 21H126.379V20.375H123.526V18.3977H126.151V17.7727H123.526V15.8068L126.333 15.8068V15.1818L122.822 15.1818V21ZM127.842 21L128.427 19.3523H130.779L131.364 21H132.103L129.967 15.1818H129.239L127.103 21H127.842ZM128.648 18.7273L129.58 16.1023H129.626L130.558 18.7273H128.648ZM133.009 21H136.418V20.375H133.714V15.1818H133.009V21ZM117.705 31H121.261V30.375H118.409V28.3977H121.034V27.7727H118.409V25.8068H121.216V25.1818H117.705V31ZM125.668 26.6364H126.349C126.318 25.7585 125.509 25.1023 124.384 25.1023C123.27 25.1023 122.395 25.75 122.395 26.7273C122.395 27.5114 122.963 27.9773 123.872 28.2386L124.588 28.4432C125.202 28.6136 125.747 28.8295 125.747 29.4091C125.747 30.0455 125.134 30.4659 124.327 30.4659C123.634 30.4659 123.02 30.1591 122.963 29.5H122.236C122.304 30.4545 123.077 31.1023 124.327 31.1023C125.668 31.1023 126.429 30.3636 126.429 29.4205C126.429 28.3295 125.395 27.9773 124.793 27.8182L124.202 27.6591C123.77 27.5455 123.077 27.3182 123.077 26.6932C123.077 26.1364 123.588 25.7273 124.361 25.7273C125.065 25.7273 125.599 26.0625 125.668 26.6364ZM127.269 25.8068H129.099V31H129.803V25.8068H131.633V25.1818H127.269V25.8068ZM132.279 31L132.864 29.3523H135.217L135.802 31H136.54L134.404 25.1818H133.677L131.54 31H132.279ZM133.086 28.7273L134.018 26.1023H134.063L134.995 28.7273L133.086 28.7273ZM136.449 25.8068H138.278V31H138.983V25.8068H140.812V25.1818H136.449V25.8068ZM141.9 31H145.457V30.375H142.604V28.3977L145.229 28.3977V27.7727L142.604 27.7727V25.8068L145.411 25.8068V25.1818L141.9 25.1818V31Z" fill="white" />
+            <g clip-path="url(#clip0_535_66)">
+                <path d="M58.1696 34.6479H55.7048C55.1174 34.6479 54.855 34.3802 54.855 33.779V14.0435C54.8558 13.5644 54.7401 13.0926 54.5184 12.6705C54.2505 12.0595 53.3365 11.1363 52.0126 11.1363L46.2803 11.1332C43.6957 11.1332 42.8394 11.7421 41.9184 14.2348C41.9184 14.2348 35.1553 32.4577 34.99 33.0961C34.8242 32.4567 28.0647 14.2368 28.0647 14.2368C27.1427 11.7416 26.2763 11.1352 23.6507 11.1352H21.9629V14.8515H22.7181C23.5901 14.8515 23.9652 15.1017 24.2614 15.8812L32.8265 38.3678H37.0545L45.6247 15.8688C45.8724 15.1094 46.2606 14.8525 47.1629 14.8525H49.9057C50.4694 14.8525 50.7555 15.1451 50.7555 15.722V35.4606C50.7549 36.1444 50.9911 36.8064 51.4222 37.3293C51.5249 37.4596 51.641 37.5783 51.7685 37.6834C52.2801 38.1243 52.9278 38.3657 53.5969 38.3647H58.1696V34.6479Z" fill="white" />
+                <path d="M69.6867 34.6464H67.2219C66.9966 34.6463 66.7805 34.5547 66.6212 34.3917C66.4619 34.2288 66.3723 34.0078 66.3722 33.7774V2.90723C66.3722 2.13618 66.0726 1.39672 65.5395 0.851507C65.0064 0.306295 64.2832 0 63.5293 0H58.9565V3.71675H61.4213C61.6467 3.71675 61.8628 3.8083 62.0222 3.97126C62.1816 4.13422 62.2711 4.35525 62.2711 4.58571V35.4559C62.271 35.8377 62.3445 36.2158 62.4874 36.5685C62.6302 36.9213 62.8396 37.2418 63.1036 37.5118C63.3676 37.7818 63.681 37.9959 64.026 38.142C64.3709 38.2881 64.7406 38.3632 65.114 38.3631H69.6867V34.6464Z" fill="white" />
+                <path d="M94.452 22.73C91.2022 21.4175 88.3957 20.2844 88.3957 17.7845C88.3957 14.8339 91.3923 14.2141 93.9056 14.2141C95.2815 14.2141 98.1219 14.8023 98.1219 16.6193V17.0174H102.014V15.6129C102.014 11.8594 97.1024 10.4952 93.801 10.4952C87.9038 10.4952 84.241 13.3689 84.241 17.9944C84.241 22.898 88.7763 24.7662 92.7778 26.4111C96.0337 27.7515 98.8438 28.9084 98.8438 31.3406C98.8438 34.0627 96.2324 35.2811 93.6437 35.2811C88.7303 35.2811 85.8773 31.4155 85.8495 31.3767L85.6291 31.0728L83.2325 34.0265L83.3594 34.2121C83.4949 34.4075 86.7366 38.9979 93.5922 38.9979C99.0414 38.9979 102.994 35.7329 102.994 31.2346C102.994 26.18 98.453 24.3465 94.4465 22.7279" fill="white" />
+                <path d="M25.3042 34.648C24.4323 34.648 24.0577 34.3978 23.7615 33.6183L15.1958 11.1317H10.8642L2.29858 33.6183C2.00236 34.3978 1.62728 34.648 0.755804 34.648H-0.00244141V38.3648H1.68541C4.31147 38.3648 5.17789 37.7553 6.09941 35.2632C6.09941 35.2632 12.8614 17.0439 13.0247 16.4039C13.191 17.0439 19.95 35.2632 19.95 35.2632C20.8721 37.7579 21.7385 38.3648 24.3645 38.3648H26.0519V34.648H25.3042Z" fill="white" />
+                <path d="M78.7507 34.6479C78.1633 34.6479 77.901 34.3801 77.901 33.7789V14.0435C77.9017 13.5643 77.786 13.0926 77.5643 12.6705C77.2959 12.0595 76.3825 11.1362 75.0581 11.1362H70.4849V14.8519H72.9497C73.5133 14.8519 73.7994 15.1445 73.7994 15.7214V35.46C73.7986 36.1208 74.0189 36.762 74.4237 37.277C74.5503 37.448 74.6995 37.6002 74.867 37.7293C75.3704 38.1426 75.9968 38.3675 76.6423 38.3667H81.2145V34.65L78.7507 34.6479Z" fill="white" />
+                <path d="M16.1385 1.8656C15.1426 1.8656 14.1847 2.42182 13.8521 3.27114C13.2126 4.90517 12.5408 6.57538 12.2198 7.44331H14.6462C15.725 7.44331 16.4074 6.95119 16.7051 6.20267L18.4238 1.86819L16.1385 1.8656Z" fill="white" />
+                <path d="M52.8452 7.44328C54.2073 7.44328 55.3115 6.31409 55.3115 4.92116C55.3115 3.52824 54.2073 2.39905 52.8452 2.39905C51.4831 2.39905 50.3789 3.52824 50.3789 4.92116C50.3789 6.31409 51.4831 7.44328 52.8452 7.44328Z" fill="white" />
+                <path d="M75.8502 7.44328C77.2123 7.44328 78.3165 6.31409 78.3165 4.92116C78.3165 3.52824 77.2123 2.39905 75.8502 2.39905C74.4881 2.39905 73.3839 3.52824 73.3839 4.92116C73.3839 6.31409 74.4881 7.44328 75.8502 7.44328Z" fill="white" />
+            </g>
+            <defs>
+                <clipPath id="clip0_535_66">
+                    <rect width="103" height="39" fill="white" />
+                </clipPath>
+            </defs>
+        </svg>
+        </a>
+
+        <nav class="header__nav js-t-header-2 md:hidden">
+            <ul class="header__nav__list flex items-center m:-ml-130">
+                <li class="relative pr-30 m:pr-90 has-submenu pointer-events-auto">
+                    <div class="menu__link">
+                        <a class="header__link block leading-[2rem] overflow-hidden js-links flex pointer-events-auto" href="#">
+                            <div class="text-white relative">
+                                <span class="menu__link__label block m:text-14 font-regular uppercase">
+                                              Mall Sections                            </span>
+                                <span class="menu__link__label block absolute top-0 left-0 m:text-14 font-regular uppercase">
+                                        Mall Sections                                 </span>
+                            </div>
+                            <svg class="dropdown-submenu" width="5" height="3" viewBox="0 0 5 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M-1.0924e-07 2.49911L2.5 -1.09278e-07L5 2.49911L4.50959 3L2.5 0.964476L0.490405 3L-1.0924e-07 2.49911Z" fill="white" />
+                                    </svg>
+                        </a>
+                    </div>
+                    <div class="leading-[2rem] overflow-visible absolute opacity-0 pointer-events-none container-submenu">
+                        <div class="relative menu__link py-5">
+                            <a class="header__link relative overflow-hidden block js-links  pointer-events-auto" href="exterior">
+                                <div class="text-white relative">
+                                    <span class="menu__link__label block m:text-14 font-regular uppercase">
+                                                    Exterior Design                                             </span>
+                                    <span class="menu__link__label block absolute top-0 left-0 m:text-14 font-regular uppercase">
+                                                    Exterior Design                                              </span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="relative menu__link py-5">
+                            <a class="header__link relative overflow-hidden block js-links  pointer-events-auto" href="wine_dine">
+                                <div class="text-white relative">
+                                    <span class="menu__link__label block m:text-14 font-regular uppercase">
+                                                    Wine and Dine                                             </span>
+                                    <span class="menu__link__label block absolute top-0 left-0 m:text-14 font-regular uppercase">
+                                                    Wine and Dine                                            </span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="relative menu__link py-5">
+                            <a class="header__link relative overflow-hidden block js-links  pointer-events-auto" href="shopping">
+                                <div class="text-white relative">
+                                    <span class="menu__link__label block m:text-14 font-regular uppercase">
+                                                    Shopping                                             </span>
+                                    <span class="menu__link__label block absolute top-0 left-0 m:text-14 font-regular uppercase">
+                                                    Shopping                                            </span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="relative menu__link py-5">
+                            <a class="header__link relative overflow-hidden block js-links  pointer-events-auto" href="cinema">
+                                <div class="text-white relative">
+                                    <span class="menu__link__label block m:text-14 font-regular uppercase">
+                                                    Cinema                                             </span>
+                                    <span class="menu__link__label block absolute top-0 left-0 m:text-14 font-regular uppercase">
+                                             Cinema                      </span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="relative menu__link py-5">
+                            <a class="header__link relative overflow-hidden block js-links  pointer-events-auto" href="energy_zone">
+                                <div class="text-white relative">
+                                    <span class="menu__link__label block m:text-14 font-regular uppercase">
+                                                    kids & Gaming                                         </span>
+                                    <span class="menu__link__label block absolute top-0 left-0 m:text-14 font-regular uppercase">
+                                             Kids & Gaming                           </span>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </li>
+                <li class="relative pr-30 m:pr-90  pointer-events-auto">
+                    <div class="menu__link">
+                        <a class="header__link block leading-[2rem] overflow-hidden js-links  pointer-events-auto" href="partner">
+                            <div class="text-white relative">
+                                <span class="menu__link__label block m:text-14 font-regular uppercase">
+                                        Partnerships                                  </span>
+                                <span class="menu__link__label block absolute top-0 left-0 m:text-14 font-regular uppercase">
+                                        Partnerships                                   </span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+
+            </ul>
+        </nav>
+
+        <div class="header__contact js-t-header-3 md:hidden">
+            <li class="menu__link relative">
+                <a class="header__link block leading-[2rem] overflow-hidden pointer-events-auto js-links" href="contact">
+                    <div class="text-white relative">
+                        <span class="menu__link__label block m:text-14 font-bold uppercase">
+                                Contact us                           </span>
+                        <span class="menu__link__label block absolute top-0 left-0 m:text-14 font-bold uppercase">
+                                Contact us                           </span>
+                    </div>
+                </a>
+            </li>
+        </div>
+
+        <div class="nav-button relative pointer-events-auto block m:hidden w-[13rem] h-[13rem] bg-white rounded-full border-[1px] border-white js-dropdown-btn js-t-header-2">
+            <span></span>
+            <span></span>
+        </div>
+
+    </header>
+
+    <div class="dropdown-menu fixed top-0 left-0 w-full h-[100vh] z-[6] bg-body js-dropdown">
+        <div class="relative w-full" style="height:100%">
+            <div class="relative overflow-auto w-full" style="height:85%; padding-top:30px">
+
+                <div class="px-50 overflow-auto">
+                    <div class="menu__link relative  has-submenu-mobile">
+                        <a class="block leading-[77px] overflow-hidden pointer-events-auto js-links" href="#">
+                            <div class="text-white relative js-dropdown-item">
+                                <span class="menu__link__label block text-[35px] font-light uppercase">
+                                    Mall Sections </span>
+                            </div>
+                        </a>
+                        <div class="container-arrow-mobile p-30">
+                            <svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M20 2.00355L10 12L-4.36959e-07 2.00355L1.96162 8.67929e-07L10 8.1421L18.0384 1.65192e-07L20 2.00355Z" fill="white" />
+                                </svg>
+                        </div>
+                    </div>
+                    <!-- nav dropdown starts  -->
+                    <div>
+                        <div class="leading-[2rem] overflow-hidden relative pointer-events-auto hidden container-submenu-mobile">
+                            <a href="exterior" class="block relative ">
+                                <span class="menu__link__label block text-lg font-regular uppercase text-white span-link-submenu">
+                                            Exterior Design                                    </span>
+                            </a>
+                            <a href="wine_dine" class="block relative ">
+                                <span class="menu__link__label block text-lg font-regular uppercase text-white span-link-submenu">
+                                                     Wine and Dine                             </span>
+                            </a>
+                            <a href="shopping" class="block relative ">
+                                <span class="menu__link__label block text-lg font-regular uppercase text-white span-link-submenu">
+                                            Shoping                                     </span>
+                            </a>
+
+                            <a href="cinema" class="block relative ">
+                                <span class="menu__link__label block text-lg font-regular uppercase text-white span-link-submenu">
+                                            Cinema                                   </span>
+                            </a>
+                            <a href="energy_zone" class="block relative ">
+                                <span class="menu__link__label block text-lg font-regular uppercase text-white span-link-submenu">
+                                            Kids & Gaming Arena                                    </span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- nav dropdown ends -->
+                    <div class="menu__link relative  ">
+                        <a class="block leading-[77px] overflow-hidden pointer-events-auto js-links" href="partner">
+                            <div class="text-white relative js-dropdown-item">
+                                <span class="menu__link__label block text-[35px] font-light uppercase">
+                                    Partnerships                              </span>
+                            </div>
+                        </a>
+                    </div>
+
+                </div> -->
+
+                <div class="menu__link relative  ">
+                    <a class="block leading-[77px] overflow-hidden pointer-events-auto js-links" href="contact">
+                        <div class="text-white relative js-dropdown-item">
+                            <span class="menu__link__label block text-[35px] font-light uppercase">
+                                    Contact Us                              </span>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+        <div class="absolute bottom-0 left-0 w-[90%] h-[40rem] z-[-1] bg-contain bg-no-repeat bg-center pointer-events-none" style="background: url('img/miscellaneous/home-hero.png');"></div>
+    </div>
+    </div>
+    <div class="mask invisible w-full h-full fixed top-0 left-0 flex items-center justify-center z-[20] overflow-hidden js-t-mask">
+        <div class="mask-loading__bg w-full h-full absolute top-0 left-0 bg-[#121212] js-t-mask-bg"></div>
+
+        <div class="w-[52rem] h-[6.7rem] overflow-hidden flex items-center justify-center relative z-[1] text-white text-16 font-regular uppercase block leading-[8.7rem]">
+            <span class="inline-block js-t-mask-span js-t-mask-span--one"></span>
+            <span class="px-10 js-t-mask-div">/</span>
+            <span class="inline-block italic opacity-50 js-t-mask-span js-t-mask-span--two"></span>
+        </div>
+    </div>
+    <div class="loader fixed top-0 left-0 w-full h-full z-[20] overflow-hidden js-loader">
+        <div class="bg-body relative w-full h-full flex items-center justify-center overflow-hidden js-loader-flap">
+
+            <div class="js-logo-loader">
+                <svg class="logo-loader svg-logo-loader" width="115" height="43" viewBox="0 0 115 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g>
+                    <g class="block js-logo-letters">
+                        <path d="M64.9464 38.2015H62.1945C61.5387 38.2015 61.2457 37.9063 61.2457 37.2435V15.4839C61.2466 14.9556 61.1174 14.4354 60.8699 13.9701C60.5707 13.2964 59.5503 12.2784 58.0722 12.2784L51.672 12.275C48.7863 12.275 47.8302 12.9464 46.8019 15.6947C46.8019 15.6947 39.2509 35.7867 39.0664 36.4906C38.8812 35.7855 31.3342 15.697 31.3342 15.697C30.3048 12.9459 29.3374 12.2773 26.406 12.2773H24.5215V16.3747H25.3647C26.3383 16.3747 26.757 16.6505 27.0878 17.51L36.6508 42.3029H41.3713L50.94 17.4964C51.2165 16.6591 51.65 16.3758 52.6574 16.3758H55.7198C56.3491 16.3758 56.6685 16.6984 56.6685 17.3345V39.0975C56.6679 39.8515 56.9316 40.5814 57.413 41.1579C57.5276 41.3016 57.6573 41.4325 57.7996 41.5483C58.3708 42.0344 59.094 42.3006 59.841 42.2995H64.9464V38.2015Z" fill="white"/>
+                        <path d="M59.0019 8.20673C60.5227 8.20673 61.7556 6.96173 61.7556 5.42594C61.7556 3.89015 60.5227 2.64514 59.0019 2.64514C57.4811 2.64514 56.2483 3.89015 56.2483 5.42594C56.2483 6.96173 57.4811 8.20673 59.0019 8.20673Z" fill="white"/>
+                    </g>
+                    <g class="block js-logo-letters">
+                        <path d="M77.8055 38.1999H75.0535C74.802 38.1997 74.5607 38.0987 74.3828 37.9191C74.2049 37.7394 74.1049 37.4958 74.1048 37.2418V3.20541C74.1048 2.35528 73.7704 1.53997 73.1751 0.938841C72.5798 0.33771 71.7725 0 70.9307 0H65.8252V4.09795H68.5772C68.8288 4.09795 69.0701 4.19889 69.248 4.37857C69.4259 4.55825 69.5259 4.80194 69.5259 5.05604V39.0924C69.5258 39.5134 69.6079 39.9302 69.7674 40.3192C69.9269 40.7081 70.1606 41.0615 70.4554 41.3591C70.7502 41.6568 71.1001 41.8929 71.4853 42.054C71.8704 42.215 72.2832 42.2979 72.7 42.2978H77.8055V38.1999Z" fill="white"/>
+                    </g>
+                    <g class="block js-logo-letters">
+                        <path d="M105.456 25.0614C101.828 23.6143 98.6941 22.365 98.6941 19.6087C98.6941 16.3554 102.04 15.672 104.846 15.672C106.382 15.672 109.554 16.3206 109.554 18.324V18.7629H113.899V17.2143C113.899 13.0759 108.415 11.5718 104.729 11.5718C98.145 11.5718 94.0554 14.7401 94.0554 19.8401C94.0554 25.2466 99.1191 27.3064 103.587 29.12C107.222 30.5979 110.359 31.8735 110.359 34.5551C110.359 37.5564 107.444 38.8998 104.554 38.8998C99.0677 38.8998 95.8823 34.6377 95.8513 34.595L95.6052 34.2598L92.9294 37.5166L93.0711 37.7212C93.2224 37.9366 96.8418 42.9978 104.496 42.9978C110.58 42.9978 114.994 39.398 114.994 34.4382C114.994 28.8653 109.923 26.8436 105.45 25.0591" fill="white"/>
+                    </g>
+                    <g class="block js-logo-letters">
+                        <path d="M28.2521 38.2015C27.2785 38.2015 26.8603 37.9257 26.5296 37.0662L16.966 12.2733H12.1298L2.56617 37.0662C2.23544 37.9257 1.81666 38.2015 0.843655 38.2015H-0.00292969V42.2995H1.88157C4.81357 42.2995 5.78094 41.6275 6.80982 38.8798C6.80982 38.8798 14.3597 18.7919 14.542 18.0863C14.7276 18.7919 22.2741 38.8798 22.2741 38.8798C23.3035 41.6304 24.2709 42.2995 27.2029 42.2995H29.0868V38.2015H28.2521Z" fill="white"/>
+                        <path d="M18.0187 2.05701C16.9069 2.05701 15.8373 2.67028 15.466 3.60671C14.752 5.40832 14.0019 7.24984 13.6436 8.20679H16.3526C17.557 8.20679 18.319 7.66419 18.6514 6.8389L20.5703 2.05986L18.0187 2.05701Z" fill="white"/>
+                    </g>
+                    <g class="block js-logo-letters">
+                        <path d="M87.9257 38.2016C87.2698 38.2016 86.9769 37.9063 86.9769 37.2435V15.4839C86.9777 14.9556 86.8486 14.4354 86.601 13.9701C86.3013 13.2964 85.2815 12.2784 83.8028 12.2784H78.6968V16.3753H81.4487C82.078 16.3753 82.3975 16.6978 82.3975 17.3339V39.097C82.3966 39.8255 82.6425 40.5324 83.0945 41.1003C83.2359 41.2889 83.4024 41.4567 83.5895 41.599C84.1515 42.0547 84.8509 42.3026 85.5716 42.3018H90.6765V38.2038L87.9257 38.2016Z" fill="white"/>
+                        <path d="M84.6873 8.20673C86.2081 8.20673 87.4409 6.96173 87.4409 5.42594C87.4409 3.89015 86.2081 2.64514 84.6873 2.64514C83.1664 2.64514 81.9336 3.89015 81.9336 5.42594C81.9336 6.96173 83.1664 8.20673 84.6873 8.20673Z" fill="white"/>
+                    </g>                
+                </g>
+            </svg>
+            </div>
+
+            <div class="md:px-50 md:w-full absolute top-[50%] m:top-[15rem] left-[50%] m:left-[23.3rem] md:translate-x-[-50%] md:translate-y-[-50%]">
+                <div class="mb-100 js-logo-slogan opacity-0">
+                    <svg class="logo-loader" width="115" height="43" viewBox="0 0 115 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g>
+                        <path d="M64.9464 38.2015H62.1945C61.5387 38.2015 61.2457 37.9063 61.2457 37.2435V15.4839C61.2466 14.9556 61.1174 14.4354 60.8699 13.9701C60.5707 13.2964 59.5503 12.2784 58.0722 12.2784L51.672 12.275C48.7863 12.275 47.8302 12.9464 46.8019 15.6947C46.8019 15.6947 39.2509 35.7867 39.0664 36.4906C38.8812 35.7855 31.3342 15.697 31.3342 15.697C30.3048 12.9459 29.3374 12.2773 26.406 12.2773H24.5215V16.3747H25.3647C26.3383 16.3747 26.757 16.6505 27.0878 17.51L36.6508 42.3029H41.3713L50.94 17.4964C51.2165 16.6591 51.65 16.3758 52.6574 16.3758H55.7198C56.3491 16.3758 56.6685 16.6984 56.6685 17.3345V39.0975C56.6679 39.8515 56.9316 40.5814 57.413 41.1579C57.5276 41.3016 57.6573 41.4325 57.7996 41.5483C58.3708 42.0344 59.094 42.3006 59.841 42.2995H64.9464V38.2015Z" fill="white"/>
+                        <path d="M77.8055 38.1999H75.0535C74.802 38.1997 74.5607 38.0987 74.3828 37.9191C74.2049 37.7394 74.1049 37.4958 74.1048 37.2418V3.20541C74.1048 2.35528 73.7704 1.53997 73.1751 0.938841C72.5798 0.33771 71.7725 0 70.9307 0H65.8252V4.09795H68.5772C68.8288 4.09795 69.0701 4.19889 69.248 4.37857C69.4259 4.55825 69.5259 4.80194 69.5259 5.05604V39.0924C69.5258 39.5134 69.6079 39.9302 69.7674 40.3192C69.9269 40.7081 70.1606 41.0615 70.4554 41.3591C70.7502 41.6568 71.1001 41.8929 71.4853 42.054C71.8704 42.215 72.2832 42.2979 72.7 42.2978H77.8055V38.1999Z" fill="white"/>
+                        <path d="M105.456 25.0614C101.828 23.6143 98.6941 22.365 98.6941 19.6087C98.6941 16.3554 102.04 15.672 104.846 15.672C106.382 15.672 109.554 16.3206 109.554 18.324V18.7629H113.899V17.2143C113.899 13.0759 108.415 11.5718 104.729 11.5718C98.145 11.5718 94.0554 14.7401 94.0554 19.8401C94.0554 25.2466 99.1191 27.3064 103.587 29.12C107.222 30.5979 110.359 31.8735 110.359 34.5551C110.359 37.5564 107.444 38.8998 104.554 38.8998C99.0677 38.8998 95.8823 34.6377 95.8513 34.595L95.6052 34.2598L92.9294 37.5166L93.0711 37.7212C93.2224 37.9366 96.8418 42.9978 104.496 42.9978C110.58 42.9978 114.994 39.398 114.994 34.4382C114.994 28.8653 109.923 26.8436 105.45 25.0591" fill="white"/>
+                        <path d="M28.2521 38.2015C27.2785 38.2015 26.8603 37.9257 26.5296 37.0662L16.966 12.2733H12.1298L2.56617 37.0662C2.23544 37.9257 1.81666 38.2015 0.843655 38.2015H-0.00292969V42.2995H1.88157C4.81357 42.2995 5.78094 41.6275 6.80982 38.8798C6.80982 38.8798 14.3597 18.7919 14.542 18.0863C14.7276 18.7919 22.2741 38.8798 22.2741 38.8798C23.3035 41.6304 24.2709 42.2995 27.2029 42.2995H29.0868V38.2015H28.2521Z" fill="white"/>
+                        <path d="M87.9257 38.2016C87.2698 38.2016 86.9769 37.9063 86.9769 37.2435V15.4839C86.9777 14.9556 86.8486 14.4354 86.601 13.9701C86.3013 13.2964 85.2815 12.2784 83.8028 12.2784H78.6968V16.3753H81.4487C82.078 16.3753 82.3975 16.6978 82.3975 17.3339V39.097C82.3966 39.8255 82.6425 40.5324 83.0945 41.1003C83.2359 41.2889 83.4024 41.4567 83.5895 41.599C84.1515 42.0547 84.8509 42.3026 85.5716 42.3018H90.6765V38.2038L87.9257 38.2016Z" fill="white"/>
+                        <path d="M18.0187 2.05701C16.9069 2.05701 15.8373 2.67028 15.466 3.60671C14.752 5.40832 14.0019 7.24984 13.6436 8.20679H16.3526C17.557 8.20679 18.319 7.66419 18.6514 6.8389L20.5703 2.05986L18.0187 2.05701Z" fill="white"/>
+                        <path d="M59.0019 8.20673C60.5227 8.20673 61.7556 6.96173 61.7556 5.42594C61.7556 3.89015 60.5227 2.64514 59.0019 2.64514C57.4811 2.64514 56.2483 3.89015 56.2483 5.42594C56.2483 6.96173 57.4811 8.20673 59.0019 8.20673Z" fill="white"/>
+                        <path d="M84.6873 8.20673C86.2081 8.20673 87.4409 6.96173 87.4409 5.42594C87.4409 3.89015 86.2081 2.64514 84.6873 2.64514C83.1664 2.64514 81.9336 3.89015 81.9336 5.42594C81.9336 6.96173 83.1664 8.20673 84.6873 8.20673Z" fill="white"/>
+                    </g>
+                </svg>
+                </div>
+
+                <h2 class="m:ml-[-2rem] font-light text-[7.2rem] m:text-[16rem] leading-[1] m:leading-[0.91] text-white uppercase">
+                    <span class="inline-block overflow-hidden">
+                    <span class="block js-slogan-loader">Emirates</span>
+                    </span> <br>
+                    <span class="inline-block overflow-hidden">
+                    <span class="block js-slogan-loader">Shopping Mall</span>
+                    </span><br>
+                    <span class="inline-block overflow-hidden">
+                    <span class="block js-slogan-loader">
+                        <span class="italic">Architectural</span> Design
+                    </span>
+                    </span>
+                </h2>
+            </div>
+
+            <div class="absolute top-[0rem] left-[0rem]">
+                <svg class="loader-line js-loader-line" width="495" height="492" viewBox="0 0 495 492" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path opacity="0.2" d="M-56 491C16.227 491 87.7468 476.774 154.476 449.134C221.205 421.494 281.836 380.981 332.909 329.909C383.981 278.837 424.494 218.205 452.134 151.476C479.774 84.7468 494 13.227 494 -59" stroke="#937D6D" stroke-width="2"/>
+            </svg>
+            </div>
+
+            <div class="md:hidden absolute bottom-[-41rem] left-[0rem] js-loader-fade">
+                <div class="loader-layer-1 w-[65rem] h-[65rem] rounded-tl-[100%] relative overflow-hidden"></div>
+            </div>
+
+            <div class="absolute top-[0rem] right-[0rem] w-[66rem] h-[40rem] bg-no-repeat bg-center pointer-events-none js-loader-fade" style="background: url('img/miscellaneous/home-hero.png');"></div>
+
+            <div class="absolute bottom-[-43rem] right-[0rem] js-loader-fade">
+                <div class="loader-layer-2 w-[95rem] m:w-[89rem] h-[95rem] rounded-bl-[100%] relative overflow-hidden"></div>
+            </div>
+
+        </div>
+    </div>
+    <div class="fixed bottom-0 left-0 z-[9] w-[62rem] h-[22rem] rounded-tr-[350px] footerBrownGradient js-consent js-t-fade">
+        <div class="w-full h-full">
+            <div class="flex flex-col pt-[6rem] pl-[3rem]">
+
+                <p class="mb-20 font-light text-14 leading-[1.4] cookie-color uppercase">
+                    This Website uses Cookies <br> <a class="cookie-here text-white" href="#">Click</a> here for <br> more information on how we use cookies
+                </p>
+
+                <div class="button__cookie">
+                    <div class="button__normal relative group inline-block js-consent__ok">
+                        <button role="button" class="button__group font-regular uppercase inline-flex rounded-full overflow-hidden relative bg-black text-white text-16">
+                        <div class="button__label w-full px-50 py-20 flex items-center text-center justify-center">Accept</div>
+                        <div class="button__label absolute top-0 left-0 w-full h-full flex items-center text-black text-center justify-center" aria-hidden="true">Accept</div>
+                    </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <main class="page-container main" role="main" itemscope itemprop="mainContentOfPage" data-router-wrapper>
+        <article data-router-view="project" id="project">
+            <div class="page overflow-hidden">
+
+                <section class="single">
+                    <div class="relative flex flex-col pt-250 pb-80">
+
+                        <div class="flex items-center justify-center flex-col mb-100 m:mb-180 js-t-fade">
+                            <h2 class="font-light text-[4rem] m:text-[5.1rem] leading-[1] text-white text-center uppercase js-t-lines">
+                                MODERN<br class="md:hidden">SUPERMART
+                            </h2>
+                        </div>
+
+
+
+                        <div class="relative single__hero__bg js-t-fade">
+                            <figure class="relative overflow-hidden border-r-fix rounded-tl-[200px] m:rounded-tl-[600px] rounded-br-[200px] m:rounded-br-[600px] w-full m:w-[173rem] mx-auto my-0 img-fill">
+                                <div class="aspect" style="--aspect: 91.00%"></div>
+                                <img class="js-s-scale" src="img/projects/shopping/shop04.jpg" alt="Shopping">
+                                <!-- THE EXTERIOR TEXT -->
+                            </figure>
+                        </div>
+
+                        <div class="absolute md:hidden md:z-[-1] md:w-full top-[0rem] left-[0rem]">
+                            <svg class="md:w-full" width="332" height="886" viewBox="0 0 332 886" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path class="js-t-draw" opacity="0.2" d="M-597 885C-475.133 885 -354.46 860.997 -241.87 814.36C-129.28 7 67.724 -26.9777 699.368 59.1951 613.195C145.368 527.022 213.724 424.72 260.36 312.13C306.997 199.54 331 78.8667 331 -43" stroke="#C2D6F1" stroke-width="2"/>
+                            </svg>
+                        </div>
+
+                        <div class="absolute top-[44rem] right-[1rem] w-[77rem] h-[71rem] z-[-1] bg-no-repeat bg-center pointer-events-none js-t-fade" style="background: url('img/miscellaneous/home-hero.png');"></div>
+
+                        <div class="absolute bottom-[-24rem] right-[1rem] w-[77rem] h-[71rem] z-[-1] bg-no-repeat bg-center pointer-events-none" style="background: url('img/miscellaneous/home-hero.png');"></div>
+
+                    </div>
+                </section>
+
+                <section class="single__info">
+                    <div class="relative flex flex-col items-start justify-start mt-100 m:mt-200 mb-[39rem]">
+
+                        <div class="flex flex-col relative left-[inherit] m:left-[24rem] md:px-50 md:mb-100 m:mt-80">
+                            <div class="relative text-[10px] m:text-14 text-white font-regular uppercase pl-50 mb-40 js-s-fade">
+                                <div class="absolute top-[0rem] left-[0rem] w-[2rem] h-[2rem] rounded-full bg-grey"></div>
+                                <div class="inline-block">EXTERIOR VIEW</div>
+                            </div>
+
+                            <h2 class="text-[6.5rem] m:text-[5.3rem] leading-[1] font-light text-white uppercase mb-70 js-s-lines">
+                                A LINE OF BUILDINGS WITH THEIR OWN PERSONALITY. <br class="md:hidden"> A LIFE OF COMFORT AND CONVENIENCE
+                            </h2>
+
+                            <div class="flex flex-col m:flex-row">
+                                <p class="text-[2.5rem] m:text-[1.8rem] font-regular text-white uppercase mb-70 js-s-lines">
+                                    INSIDE A SPACIOUS, WELL-EQUIPPED AND STYLISH MALL.
+
+                                    <br> WALKING THROUGH THE DOOR, SURROUNDINGS, HIGH QUALITY FINISHES, <br> DETAILS EVERYWHERE AND AN EXCELLENT LOCATION.
+                                </p>
+
+
+                            </div>
+
+                        </div>
+
+                        <div class="block relative md:left-[5rem] z-[1]">
+                            <div class="relative m:px-[9rem] js-s-parallax-x" data-parallax="[0, -5]">
+                                <figure class="relative md:w-full overflow-hidden border-r-fix m:rounded-bl-[360px] rounded-tr-[330px] m:rounded-br-[350px] m:w-[179rem] img-fill">
+                                    <div class="md:hidden aspect" style="--aspect: 50.78%"></div>
+                                    <img class="relative-mob md:w-full md:h-full js-s-scale" src="img/projects/garda-ugarte/image-2.jpg" alt="Garda Ugarte">
+                                </figure>
+
+                                <div class="md:hidden absolute top-[-6.2rem] right-[4.4rem]">
+                                    <svg width="353" height="380" viewBox="0 0 353 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.7" d="M378 380C378 330.36 368.223 281.207 349.226 235.346C330.23 189.485 302.387 147.814 267.286 112.714C232.186 77.6131 190.515 49.7698 144.654 30.7735C98.7933 11.7773 49.6397 2 0 2" stroke="#4A4948" stroke-width="3"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="absolute z-[3] bottom-[-20rem] m:bottom-[-8rem] left-[0]">
+                            <div class="font-light whitespace-nowrap text-[9.2rem] m:text-[16.2rem] tracking-tighter leading-[1] text-white uppercase js-s-parallax-x" data-parallax="[-15, -30]">DIMENSION OF PROPERTY 15,180 SQM • 4 FLOORS.</div>
+                        </div>
+
+                        <div class="absolute bottom-[-37rem] left-[20rem] w-[141rem] h-[71rem] z-[-1] bg-contain bg-no-repeat bg-center pointer-events-none" style="background: url('img/miscellaneous/home-hero.png');"></div>
+
+                    </div>
+                </section>
+
+
+
+                <section class="single__info">
+                    <div class="mb-[36rem]">
+                        <div class="w-full m:w-[152rem] my-0 mx-auto relative">
+
+                            <figure class="project__item--bg md:h-[310px] relative w-full border-r-fix rounded-br-[200px] m:rounded-tl-[375px] overflow-hidden img-fill">
+                                <div class="md:hidden aspect" style="--aspect: 56.28%"></div>
+                                <img class="relative-mob js-s-scale" src="img/projects/garda-ugarte/floors/ground_floor.png" alt="Garda Ugarte">
+                            </figure>
+
+                            <div class="pt-140 pl-80 absolute top-[40rem] m:top-[57rem] right-0 m:right-[-12rem] w-[44rem] h-[44rem] rounded-br-full z-[2] lightBlueGradient js-s-parallax-y">
+                                <h3 class="font-light text-white text-[5.3rem] leading-[1.1] tracking-tighter uppercase mb-20 js-s-lines">
+                                    LOCATION:<br> GROUND FLOOR
+                                </h3>
+                            </div>
+
+                            <div class="md:hidden absolute top-[-7rem] left-[-6.8rem]">
+                                <svg width="411" height="411" viewBox="0 0 411 411" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.7" d="M411 1.99999C357.289 2 304.105 12.5791 254.482 33.1333C204.86 53.6875 159.772 83.8142 121.793 121.793C83.8141 159.772 53.6874 204.86 33.1333 254.482C12.5791 304.105 2 357.289 2 411" stroke="#4A4948" stroke-width="3"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!-- floor plans starts -->
+                <section class="single__info">
+                    <div class="relative flex flex-col mb-[22rem]">
+
+                        <div class="flex flex-col relative md:pr-50 pl-50 m:pl-[24rem] mb-70 mt-80">
+                            <h2 class="text-[6.5rem] m:text-[5.3rem] leading-[1] font-light text-white uppercase mb-70 js-s-lines">
+                                Explore the <br class="md:hidden"> floor plans
+                            </h2>
+                        </div>
+
+                        <div class="garda-ugarte-building flex md:flex-col items-center justify-between px-20 ld:px-[10rem] m:px-[19rem]">
+                            <div class="flex md:flex-col md:mb-200 js-s-fade">
+                                <div class="showcase-building md:mb-100">
+                                    <figure class="relative">
+                                        <img class="md:w-full object-contain" src="img/projects/garda-ugarte/building-1.png" alt="Garda Ugarte">
+                                    </figure>
+                                </div>
+
+                                <div class="showcase-dots relative m:top-[3rem] m:left-[5.7rem] flex flex-row-reverse m:flex-col md:justify-between items-center m:items-start">
+
+
+
+                                    <div class="md:mx-[3px] showcase-dot flex items-center justify-center js-dots-map-3 js-dots-map" data-id="3" data-active="false" role="button">
+                                        <div class="relative">
+                                            <div class="showcase–dot-main relative">
+                                                <div class="showcase-dot-inner">
+                                                    <div class="showcase-dot-inner-number font-regular txt-14 leading-[1.2] text-black">3F</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="showcase-dot-outter-number font-regular text-14 leading-[1.2] text-white">3F</div>
+                                    </div>
+
+                                    <div class="md:mx-[3px] showcase-dot flex items-center justify-center js-dots-map-2 js-dots-map" data-id="2" data-active="false" role="button">
+                                        <div class="relative">
+                                            <div class="showcase–dot-main relative">
+                                                <div class="showcase-dot-inner">
+                                                    <div class="showcase-dot-inner-number font-regular txt-14 leading-[1.2] text-black">2F</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="showcase-dot-outter-number font-regular text-14 leading-[1.2] text-white">2F</div>
+                                    </div>
+
+                                    <div class="md:mx-[3px] showcase-dot flex items-center justify-center js-dots-map-1 js-dots-map" data-id="1" data-active="false" role="button">
+                                        <div class="relative">
+                                            <div class="showcase–dot-main relative">
+                                                <div class="showcase-dot-inner">
+                                                    <div class="showcase-dot-inner-number font-regular txt-14 leading-[1.2] text-black">1F</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="showcase-dot-outter-number font-regular text-14 leading-[1.2] text-white">1F</div>
+                                    </div>
+
+                                    <div class="md:mx-[3px] showcase-dot flex items-center justify-center active js-dots-map-0 js-dots-map" data-id="0" data-active="true" role="button">
+                                        <div class="relative">
+                                            <div class="showcase–dot-main relative">
+                                                <div class="showcase-dot-inner">
+                                                    <div class="showcase-dot-inner-number font-regular txt-14 leading-[1.2] text-black">GF</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="showcase-dot-outter-number font-regular text-14 leading-[1.2] text-white">GF</div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="showcase-floors relative pointer-events-none js-s-fade">
+
+                                <div class="showcase-floors-map relative js-img-map" data-active="true">
+                                    <figure class="relative">
+                                        <div class="absolute top-[-21rem] left-[20rem] font-light text-[27rem] text-white text-opacity-10 pointer-events-none">G</div>
+                                        <img class="object-contain" src="img/projects/garda-ugarte/floors/ground_floor.png" alt="Garda Ugarte">
+                                    </figure>
+                                </div>
+
+                                <div class="showcase-floors-map absolute top-0 left-0 js-img-map" data-active="false">
+                                    <figure class="relative">
+                                        <div class="absolute top-[-21rem] left-[20rem] font-light text-[27rem] text-white text-opacity-10 pointer-events-none">1</div>
+                                        <img class="object-contain" src="img/projects/garda-ugarte/floors/1st_floor.png" alt="Garda Ugarte">
+                                    </figure>
+                                </div>
+
+                                <div class="showcase-floors-map absolute top-0 left-0 js-img-map" data-active="false">
+                                    <figure class="relative">
+                                        <div class="absolute top-[-21rem] left-[20rem] font-light text-[27rem] text-white text-opacity-10 pointer-events-none">2</div>
+                                        <img class="object-contain" src="img/projects/garda-ugarte/floors/2nd_floor.png" alt="Garda Ugarte">
+                                    </figure>
+                                </div>
+
+                                <div class="showcase-floors-map absolute top-0 left-0 js-img-map" data-active="false">
+                                    <figure class="relative">
+                                        <div class="absolute top-[-21rem] left-[20rem] font-light text-[27rem] text-white text-opacity-10 pointer-events-none">3</div>
+                                        <img class="object-contain" src="img/projects/garda-ugarte/floors/3rd_floor.png" alt="Garda Ugarte">
+                                    </figure>
+                                </div>
+
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </section>
+                <!-- floor plans ends     -->
+
+                <!-- gallery images starts -->
+                <section class="single__info">
+                    <div class="relative flex flex-col mb-100 m:mb-[28rem]">
+
+                        <div class="flex flex-col relative pl-50 m:pl-[24rem] mb-70 m:mt-20">
+                            <h2 class="text-[6.5rem] m:text-[5.3rem] leading-[1] font-light text-white uppercase mb-70 js-s-lines">
+                                EXPLORE <br> THE GALLERY
+                            </h2>
+                        </div>
+
+                        <div class="units-btns ml-150 mr-150 mb-80 js-s-fade">
+                            <div thumbsSlider="" class="gallery-thumbs js-units-btns">
+                                <div class="swiper-wrapper">
+
+                                    <div class="swiper-slide">
+                                        <div class="button-unit-slide relative inline-block">
+                                            <div class="button-unit-slide-text font-regular uppercase inline-flex overflow-hidden relative text-white text-16">
+                                                <div class="px-50 py-20 flex items-center text-center justify-center">001</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="button-unit-slide relative inline-block">
+                                            <div class="button-unit-slide-text font-regular uppercase inline-flex overflow-hidden relative text-white text-16">
+                                                <div class="px-50 py-20 flex items-center text-center justify-center">002</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="button-unit-slide relative inline-block">
+                                            <div class="button-unit-slide-text font-regular uppercase inline-flex overflow-hidden relative text-white text-16">
+                                                <div class="px-50 py-20 flex items-center text-center justify-center">003</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="button-unit-slide relative inline-block">
+                                            <div class="button-unit-slide-text font-regular uppercase inline-flex overflow-hidden relative text-white text-16">
+                                                <div class="px-50 py-20 flex items-center text-center justify-center">004</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="units-maps px-50 m:px-[15rem] js-s-fade">
+                            <div class="swiper-container js-units-maps">
+                                <div class="swiper-wrapper">
+
+                                    <div class="swiper-slide unit-maps-img relative">
+                                        <!-- <div class="absolute top-[-1rem] left-[-1rem] font-light text-[27rem] text-white text-opacity-10">001</div> -->
+                                        <img style="object-fit: contain !important;" src="img/projects/shopping/shop01.jpg" />
+                                    </div>
+
+                                    <div class="swiper-slide unit-maps-img relative">
+                                        <!-- <div class="absolute top-0 left-0 font-light text-[27rem] text-white text-opacity-10">002</div> -->
+                                        <img style="object-fit: contain !important;" src="img/projects/shopping/shop02.jpg">
+                                    </div>
+
+                                    <div class="swiper-slide unit-maps-img relative">
+                                        <!-- <div class="absolute top-0 left-0 font-light text-[27rem] text-white text-opacity-10">101</div> -->
+                                        <img style="object-fit: contain !important;" src="img/projects/shopping/shop03.jpg" />
+                                    </div>
+
+                                    <div class="swiper-slide unit-maps-img relative">
+                                        <!-- <div class="absolute top-0 left-0 font-light text-[27rem] text-white text-opacity-10">102</div> -->
+                                        <img style="object-fit: contain !important;" src="img/projects/shopping/shop04.jpg" />
+                                    </div>
+
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- gallery images ends -->
+
+                <!-- feature gallery images starts -->
+                <section class="single__info">
+                    <div class="relative mb-200 js-gallery">
+
+                        <div class="md:hidden pl-[28rem]">
+                            <div class="relative text-14 text-white font-regular uppercase pl-50 mb-40 js-s-fade">
+                                <div class="absolute top-[0rem] left-[0rem] w-[2rem] h-[2rem] rounded-full bg-grey"></div>
+                                <div class="inline-block">LETTING SPACE AVAILABLE</div>
+                            </div>
+                        </div>
+
+                        <div class="slider-gallery relative overflow-hidden js-place-gallery js-s-fade" data-cursor>
+                            <button type="button" class="slider-gallery__btn slider-gallery__btn--previous js-slider--previous" data-direction="prev" aria-label="Previous"></button>
+                            <button type="button" class="slider-gallery__btn slider-gallery__btn--next js-slider--next" data-direction="next" aria-label="Next"></button>
+
+                            <div class="place-slider w-full m:w-[93%] h-[93rem] relative overflow-hidden border-r-fix rounded-br-[200px] m:rounded-br-[300px] js-place-slider">
+
+                                <div class="place-slide w-full h-full relative overflow-hidden js-place-slide">
+                                    <img class="w-full h-full object-cover js-place-slide-img" src="img/projects/shopping/cloth01.jpg" alt="Garda Ugarte">
+                                </div>
+
+                                <div class="place-slide w-full h-full absolute top-0 left-0 overflow-hidden js-place-slide">
+                                    <img class="w-full h-full object-cover js-place-slide-img" src="img/projects/shopping/cloth02.jpg" alt="Garda Ugarte">
+                                </div>
+
+                                <div class="place-slide w-full h-full absolute top-0 left-0 overflow-hidden js-place-slide">
+                                    <img class="w-full h-full object-cover js-place-slide-img" src="img/projects/shopping/cloth03.jpg" alt=" Garda Ugarte ">
+                                </div>
+                                <div class="place-slide w-full h-full absolute top-0 left-0 overflow-hidden js-place-slide">
+                                    <img class="w-full h-full object-cover js-place-slide-img" src="img/projects/shopping/cloth04.jpg" alt=" Garda Ugarte ">
+                                </div>
+                            </div>
+
+                            <div class="w-full relative md:mt-70 m:absolute top-[inherit] m:top-[9rem] left-[inherit] m:left-0 z-[8] m:pr-[13.6rem] m:pl-[28.4rem] flex items-center justify-center m:justify-between ">
+                                <div class="relative md:hidden ">
+                                    <h2 class="font-light text-[8rem] tracking-tighter leading-[1] text-white upperccase ">STORES TO-LET</h2>
+                                </div>
+
+                                <div class="bullets flex m:mr-100 js-dot-bullets ">
+                                    <div class="bullet cursor-pointer active-bullet js-gallery-bullets "></div>
+                                    <div class="bullet cursor-pointer js-gallery-bullets "></div>
+                                    <div class="bullet cursor-pointer js-gallery-bullets "></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="absolute z-[-1] top-[-13rem] m:top-[-7rem] left-[0] ">
+                            <div class="font-light text-opacity-10 whitespace-nowrap text-[16.2rem] tracking-tighter leading-[1] text-white uppercase js-s-parallax-x " data-parallax="[-15, -30] ">PARKING AREA / CAR PARK / PARKING SPACE / CAR PARK</div>
+                        </div>
+
+                    </div>
+                </section>
+                <!-- feature gallery images ends -->
+
+                <!-- Icons display starts -->
+                <section class="single__info ">
+                    <div class="block relative md:px-50 mb-180 ">
+                        <div class="flex flex-wrap justify-center ">
+
+
+
+
+
+
+
+                            <div class="flex flex-col items-center justify-center md:mb-70 mx-45 js-s-stack-center ">
+                                <div class="mb-60 ">
+                                    <svg width="50 " height="40 " viewBox="0 0 50 40 " fill="none " xmlns="http://www.w3.org/2000/svg ">
+                                        <path d="M31.25 22.5C32.6305 22.5 33.75 21.3805 33.75 20C33.75 18.6195 32.6305 17.5 31.25 17.5C29.8695 17.5 28.75 18.6195 28.75 20C28.75 21.3805 29.8695 22.5 31.25 22.5ZM49.375 37.5H40V2.5C40 1.11953 38.8805 0
+                                        37.5 0H12.5C11.1195 0 10 1.11953 10 2.5V37.5H0.625C0.279687 37.5 0 37.7797 0 38.125V39.375C0 39.7203 0.279687 40 0.625 40H49.375C49.7203 40 50 39.7203 50 39.375V38.125C50 37.7797 49.7203 37.5 49.375 37.5ZM37.5 37.5H12.5V2.5H37.5V37.5Z
+                                        " fill="white "/>
+                                    </svg>
+                                </div>
+                                <div class="font-light text-14 leading-[1] text-white uppercase ">SECURITY SENSOR DOORS</div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </section>
+                <!-- Icons display ends -->
+
+
+
+
+                <section class="single__info ">
+                    <div class="relative pb-250 ">
+
+                        <div class="md:px-50 mb-50 m:mb-200 relative block flex flex-col items-center ">
+
+
+                            <h2 class="md:px-50 md:text-center text-[4.3rem] leading-[1] font-light text-white uppercase mb-70 js-s-lines ">THE UPGRADE OF LIFE IN A MALL</h2>
+                        </div>
+
+                        <div class="marquee js-marquee js-s-fade ">
+                            <div class="marquee__inner js-marquee__inner ">
+
+                                <div class="marquee__item js-marquee__item ">
+                                    <div class="w-[32.5rem] h-[11rem] flex items-center justify-center border-r-[1px] border-[#2c2d2d] ">
+                                        <div class="w-[10.5rem] h-[7rem] flex items-center ">
+                                            <img class="w-full h-full block object-contain " src="img/logos/client1.png " alt="Logos Clientes ">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="marquee__item js-marquee__item ">
+                                    <div class="w-[32.5rem] h-[11rem] flex items-center justify-center border-r-[1px] border-[#2c2d2d] ">
+                                        <div class="w-[13.5rem] h-[7rem] flex items-center ">
+                                            <img class="w-full h-full block object-contain " src="img/logos/client2.png " alt="Logos Clientes ">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="marquee__item js-marquee__item ">
+                                    <div class="w-[32.5rem] h-[11rem] flex items-center justify-center border-r-[1px] border-[#2c2d2d] ">
+                                        <div class="w-[20.5rem] h-[7rem] flex items-center ">
+                                            <img class="w-full h-full block object-contain " src="img/logos/client3.png " alt="Logos Clientes ">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="marquee__item js-marquee__item ">
+                                    <div class="w-[32.5rem] h-[11rem] flex items-center justify-center border-r-[1px] border-[#2c2d2d] ">
+                                        <div class="w-[10.5rem] h-[7rem] flex items-center ">
+                                            <img class="w-full h-full block object-contain " src="img/logos/client4.png " alt="Logos Clientes ">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="marquee__item js-marquee__item ">
+                                    <div class="w-[32.5rem] h-[11rem] flex items-center justify-center border-r-[1px] border-[#2c2d2d] ">
+                                        <div class="w-[13.5rem] h-[7rem] flex items-center ">
+                                            <img class="w-full h-full block object-contain " src="img/logos/client5.png " alt="Logos Clientes ">
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+
+                        <div class="absolute top-[-34rem] right-[22rem] w-[75rem] h-[88rem] z-[-1] bg-contain bg-no-repeat bg-center pointer-events-none " style="background: url( 'img/miscellaneous/home-hero.png'); "></div>
+                    </div>
+                </section>
+
+                <section class="contact__form-wrapper ">
+                    <div class="relative overflow-hidden px-50 m:px-340 pb-250 m:pb-[39rem] js-t-fade ">
+                        <div class="flex flex-col ">
+                            <div class="relative text-[10px] m:text-14 text-white font-regular uppercase pl-50 mb-50 m:mb-40 js-s-fade ">
+                                <div class="absolute top-[0rem] left-[0rem] w-[2rem] h-[2rem] rounded-full bg-grey "></div>
+                                <div class="inline-block ">PARTNERSHIP</div>
+                            </div>
+
+                            <h1 class="mt-0 font-light text-[6.5rem] m:text-[9.3rem] text-white leading-[1.1] uppercase js-s-lines ">
+                                WE CREATE NEW WAYS
+
+                                <br class="md:hidden "> OF LIVING THROUGH BUILDING. <br class="md:hidden "> PARTNER WITH US
+                            </h1>
+                        </div>
+
+                        <div class="w-full m:w-6/12 ">
+                            <div class="flex flex-col md:mb-150 mb-70 js-s-fade ">
+                                <div class="relative ">
+                                    <div class="inline-block font-regular text-[2.5rem] m:text-[1.8rem] text-white leading-[130%] uppercase js-s-lines ">
+                                        CONTACT US TO RECEIVE MORE
+
+                                        <br class="md:hidden "> INFORMATION ABOUT OUR <br class="md:hidden "> PROJECTS.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <form class="form contact__form js-contact-form js-s-fade" method="post" autocomplete="off">
+                                <label class="form__item form__item--name mb-[50px] required">
+                                    <span class="form__label font-regular text-[2.5rem] m:text-18 text-white">Full Name</span>
+                                    <input id="person" data-validation class="form__input font-regular text-16 text-white form__input--text" type="text" name="name" value="" autocomplete="off">
+                                </label>
+                                <label class="form__item form__item--name mb-[50px] required">
+                                    <span class="form__label font-regular text-[2.5rem] m:text-18 text-white">Company Name</span>
+                                    <input id="person" data-validation class="form__input font-regular text-16 text-white form__input--text" type="text" name="name" value="" autocomplete="off">
+                                </label>
+
+                                <label class="form__item form__item--email mb-[50px]">
+                                    <span class="form__label font-regular text-[2.5rem] m:text-18 text-white required">Email</span>
+                                    <input id="email" data-validation class="form__input font-regular text-16 text-white form__input--email" type="email" name="email" value="" autocomplete="off">
+                                </label>
+
+                                <label class="form__item form__item--phone mb-[50px]">
+                                    <span class="form__label font-regular text-[2.5rem] m:text-18 text-white">Phone Number</span>
+                                    <input id="phone" data-validation class="form__input font-regular text-16 text-white form__input--tel" type="number" name="phone" value="" minlength="10" autocomplete="off">
+                                </label>
+
+                                <label class="form__item form__item--message mb-[10px]">
+                                    <span class="form__label font-regular text-[2.5rem] m:text-18 text-white required">Message</span>
+                                    <textarea id="msg" data-validation class="form__input font-regular text-16 text-white form__input--textarea" name="message" rows="3" autocomplete="off"></textarea>
+                                </label>
+
+                                <input type="hidden" name="project[]" value="Garda Ugarte" />
+
+                                <span class="form__message font-regular text-16 text-error mb-[50px]">Kindly fill in the required information</span>
+
+                                <div class="form__disclaimer relative flex justify-between items-center">
+
+
+                                    <div class="form__disclaimer--top overflow-hidden relative">
+                                        <button onclick="window.dataLayer.push({'event': 'form_submit', 'form_place': 'garda_ugarte'});" class="button__normal form__submit relative group inline-block" type="submit">
+                                            <div class="button__group font-regular uppercase inline-flex rounded-full overflow-hidden relative bg-white text-black text-[2.5rem] m:text-16">
+                                                <div class="button__label button__label--send w-full px-50 py-32 m:py-20 flex items-center text-center justify-center">Send</div>
+                                                <div class="button__label button__label--send absolute top-0 left-0 w-full h-full flex items-center text-white text-center justify-center" aria-hidden="true">Send</div>
+                                            </div>
+                                        </button>
+                                    </div>
+
+                                    <div class="form__result--message font-regular leading-[1.1] text-18 text-white">
+                                        Your message was sent successfully <br> We would get back to you.
+                                    </div>
+                                </div>
+
+                            </form>
+
+                        </div>
+                    </div>
+                </section>
+
+                <section class="next__projects ">
+                    <div class="mb-[30rem] relative ">
+
+                        <div class="absolute top-[-33rem] right-[0] w-[129rem] h-[80rem] z-[-1] bg-contain bg-no-repeat bg-center pointer-events-none " style="background: url( 'img/miscellaneous/home-hero.png'); "></div>
+
+                        <div class="relative ml-50 m:ml-100 mb-100 m:mb-50 ">
+
+                            <div class="mb-140 ">
+                                <div class="relative text-[10px] m:text-14 text-white font-regular uppercase pl-50 mb-40 js-s-fade ">
+                                    <div class="absolute top-[0rem] left-[0rem] w-[2rem] h-[2rem] rounded-full bg-grey "></div>
+                                    <div class="inline-block ">DISCOVER MORE </div>
+                                </div>
+                            </div>
+
+                            <div class="team__marquee--slogan absolute z-[-1] top-[3rem] left-[-58rem] ">
+                                <div class="text-[20rem] font-thin whitespace-nowrap text-white opacity-10 uppercase js-s-parallax-x " data-parallax="[-15, -30] ">
+                                    experience / innovation / experience / innovation
+                                </div>
+                            </div>
+
+                            <div class="js-s-fade ">
+                                <div class="slider | js-slider ">
+                                    <div class="slider__slides | js-slides ">
+
+                                        <article class="slide | js-slide " data-href="energy_zone ">
+                                            <div class="slide__inner border-r-fix slide-w ">
+                                                <div class="slide__img | js-slide-img ">
+                                                    <img src="img/projects/game/kid.jpg " alt="Avilis Proyectos ">
+                                                </div>
+                                            </div>
+                                            <div class="slide__logo scale-it ">
+                                                <h2 class="md:px-50 md:text-center text-[4.3rem] leading-[1] font-light text-white uppercase mb-70 js-s-lines ">KIDS & GYM </h2>
+                                            </div>
+                                        </article>
+
+                                        <article class="slide | js-slide " data-href="wine_dine ">
+                                            <div class="slide__inner border-r-fix slide-h ">
+                                                <div class="slide__img | js-slide-img ">
+                                                    <img src="img/projects/wine/out03.jpg " alt="Avilis Proyectos ">
+                                                </div>
+                                            </div>
+                                            <div class="slide__logo ">
+                                                <h2 class="md:px-50 md:text-center text-[4.3rem] leading-[1] font-light text-white uppercase mb-70 js-s-lines ">RESTAURANT & BAR </h2>
+                                            </div>
+                                        </article>
+
+                                        <article class="slide | js-slide " data-href="exterior ">
+                                            <div class="slide__inner border-r-fix slide-w ">
+                                                <div class="slide__img | js-slide-img ">
+                                                    <img src="img/projects/garda-ugarte/hero.jpg " alt="Avilis Proyectos ">
+                                                </div>
+                                            </div>
+                                            <div class="slide__logo ">
+                                                <h2 class="md:px-50 md:text-center text-[4.3rem] leading-[1] font-light text-white uppercase mb-70 js-s-lines ">EXTERIOR DESIGN </h2>
+                                            </div>
+                                        </article>
+
+                                        <article class="slide | js-slide " data-href="cinema ">
+                                            <div class="slide__inner border-r-fix slide-w ">
+                                                <div class="slide__img | js-slide-img ">
+
+                                                    <img src="img/projects/cinema & walkway/hero.jpg " alt="Avilis Proyectos ">
+
+                                                </div>
+                                            </div>
+                                            <div class="slide__logo scale-it ">
+                                                <h2 class="md:px-50 md:text-center text-[4.3rem] leading-[1] font-light text-white uppercase mb-70 js-s-lines ">CINEMA</h2>
+                                            </div>
+                                        </article>
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="w-full flex justify-center ">
+                            <div class="button__normal relative group inline-block js-s-fade ">
+
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <section class="footer has-team ">
+
+
+
+                    <footer class="footer__inner relative pb-70 mt-[60rem] m:mt-[unset] ">
+                        <div class="footer__inner--title relative items-center justify-center m:pb-130 ">
+                            <h1 class="text-[60px] m:text-[15rem] font-light text-white text-center leading-[90%] uppercase js-s-lines ">
+                                <span class="block pb-20 ">CONNECT</span>
+                                <span class="block italic ">WITH US</span>
+                            </h1>
+                            <a href="# " class="flex items-center justify-center mb-[40px] ">
+                                <svg class="m:hidden " width="25 " height="25 " viewBox="0 0 52 52 " fill="none " xmlns="http://www.w3.org/2000/svg ">
+                    <path d="M38.9336 32.5298C38.9336 32.5298 38.5625 32.2914 38.2445 32.1325L37.8735 31.947C37.1579 31.6027 33.9774 30.0397 33.3944 29.8278C32.7848 29.6159 32.6788 29.6159 32.4402 29.9868C31.9897 30.6755 30.7175 32.1854 30.32 32.6093C29.6309
+                                        33.404 28.8888 33.1656 28.3322 32.9007C28.2262 32.8477 28.0937 32.7682 27.9081 32.7152C26.9805 32.3179 25.0723 31.4702 22.899 29.5364C20.9642 27.8146 19.6126 25.6954 19.1355 24.8477C18.5789 23.8676 19.1885 23.2583 19.5066
+                                        22.9404C19.6921 22.755 19.9041 22.4901 20.1161 22.2517C20.2221 22.0927 20.3547 21.9603 20.4607 21.8013C20.7257 21.5099 20.8317 21.298 20.9907 20.9801L21.0703 20.7947C21.1763 20.5828 21.1763 20.3709 21.0173 20.053C20.9377
+                                        19.9205 20.6727 19.2583 20.3282 18.4106C19.8776 17.298 19.2945 15.894 18.9765 15.1258C18.5789 14.3046 18.2874 14.2781 17.8898 14.2781C17.4923 14.2517 17.0682 14.2517 16.6442 14.2517C16.4056 14.2517 15.7696 14.3046 15.213
+                                        14.9404L15.0805 15.0728C14.4179 15.7881 13.0132 17.2715 13.0132 20.1325C13.0132 22.9934 14.8419 25.6424 15.6105 26.6755C15.6635 26.7285 15.6901 26.8079 15.7696 26.9139C18.897 31.5497 22.793 34.9669 26.7155 36.5033C31.6716
+                                        38.4636 33.0233 38.3046 34.0835 38.1722H34.4545C35.4881 38.0397 38.0325 36.6623 38.5095 35.3113C39.0131 33.9073 39.0131 32.7417 38.9336 32.5298ZM38.9336 32.5298C38.9336 32.5298 38.5625 32.2914 38.2445 32.1325L37.8735
+                                        31.947C37.1579 31.6027 33.9774 30.0397 33.3944 29.8278C32.7848 29.6159 32.6788 29.6159 32.4402 29.9868C31.9897 30.6755 30.7175 32.1854 30.32 32.6093C29.6309 33.404 28.8888 33.1656 28.3322 32.9007C28.2262 32.8477 28.0937
+                                        32.7682 27.9081 32.7152C26.9805 32.3179 25.0723 31.4702 22.899 29.5364C20.9642 27.8146 19.6126 25.6954 19.1355 24.8477C18.5789 23.8676 19.1885 23.2583 19.5066 22.9404C19.6921 22.755 19.9041 22.4901 20.1161 22.2517C20.2221
+                                        22.0927 20.3547 21.9603 20.4607 21.8013C20.7257 21.5099 20.8317 21.298 20.9907 20.9801L21.0703 20.7947C21.1763 20.5828 21.1763 20.3709 21.0173 20.053C20.9377 19.9205 20.6727 19.2583 20.3282 18.4106C19.8776 17.298 19.2945
+                                        15.894 18.9765 15.1258C18.5789 14.3046 18.2874 14.2781 17.8898 14.2781C17.4923 14.2517 17.0682 14.2517 16.6442 14.2517C16.4056 14.2517 15.7696 14.3046 15.213 14.9404L15.0805 15.0728C14.4179 15.7881 13.0132 17.2715 13.0132
+                                        20.1325C13.0132 22.9934 14.8419 25.6424 15.6105 26.6755C15.6635 26.7285 15.6901 26.8079 15.7696 26.9139C18.897 31.5497 22.793 34.9669 26.7155 36.5033C31.6716 38.4636 33.0233 38.3046 34.0835 38.1722H34.4545C35.4881 38.0397
+                                        38.0325 36.6623 38.5095 35.3113C39.0131 33.9073 39.0131 32.7417 38.9336 32.5298ZM38.9336 32.5298C38.9336 32.5298 38.5625 32.2914 38.2445 32.1325L37.8735 31.947C37.1579 31.6027 33.9774 30.0397 33.3944 29.8278C32.7848
+                                        29.6159 32.6788 29.6159 32.4402 29.9868C31.9897 30.6755 30.7175 32.1854 30.32 32.6093C29.6309 33.404 28.8888 33.1656 28.3322 32.9007C28.2262 32.8477 28.0937 32.7682 27.9081 32.7152C26.9805 32.3179 25.0723 31.4702 22.899
+                                        29.5364C20.9642 27.8146 19.6126 25.6954 19.1355 24.8477C18.5789 23.8676 19.1885 23.2583 19.5066 22.9404C19.6921 22.755 19.9041 22.4901 20.1161 22.2517C20.2221 22.0927 20.3547 21.9603 20.4607 21.8013C20.7257 21.5099
+                                        20.8317 21.298 20.9907 20.9801L21.0703 20.7947C21.1763 20.5828 21.1763 20.3709 21.0173 20.053C20.9377 19.9205 20.6727 19.2583 20.3282 18.4106C19.8776 17.298 19.2945 15.894 18.9765 15.1258C18.5789 14.3046 18.2874 14.2781
+                                        17.8898 14.2781C17.4923 14.2517 17.0682 14.2517 16.6442 14.2517C16.4056 14.2517 15.7696 14.3046 15.213 14.9404L15.0805 15.0728C14.4179 15.7881 13.0132 17.2715 13.0132 20.1325C13.0132 22.9934 14.8419 25.6424 15.6105
+                                        26.6755C15.6635 26.7285 15.6901 26.8079 15.7696 26.9139C18.897 31.5497 22.793 34.9669 26.7155 36.5033C31.6716 38.4636 33.0233 38.3046 34.0835 38.1722H34.4545C35.4881 38.0397 38.0325 36.6623 38.5095 35.3113C39.0131 33.9073
+                                        39.0131 32.7417 38.9336 32.5298ZM38.9336 32.5298C38.9336 32.5298 38.5625 32.2914 38.2445 32.1325L37.8735 31.947C37.1579 31.6027 33.9774 30.0397 33.3944 29.8278C32.7848 29.6159 32.6788 29.6159 32.4402 29.9868C31.9897
+                                        30.6755 30.7175 32.1854 30.32 32.6093C29.6309 33.404 28.8888 33.1656 28.3322 32.9007C28.2262 32.8477 28.0937 32.7682 27.9081 32.7152C26.9805 32.3179 25.0723 31.4702 22.899 29.5364C20.9642 27.8146 19.6126 25.6954 19.1355
+                                        24.8477C18.5789 23.8676 19.1885 23.2583 19.5066 22.9404C19.6921 22.755 19.9041 22.4901 20.1161 22.2517C20.2221 22.0927 20.3547 21.9603 20.4607 21.8013C20.7257 21.5099 20.8317 21.298 20.9907 20.9801L21.0703 20.7947C21.1763
+                                        20.5828 21.1763 20.3709 21.0173 20.053C20.9377 19.9205 20.6727 19.2583 20.3282 18.4106C19.8776 17.298 19.2945 15.894 18.9765 15.1258C18.5789 14.3046 18.2874 14.2781 17.8898 14.2781C17.4923 14.2517 17.0682 14.2517 16.6442
+                                        14.2517C16.4056 14.2517 15.7696 14.3046 15.213 14.9404L15.0805 15.0728C14.4179 15.7881 13.0132 17.2715 13.0132 20.1325C13.0132 22.9934 14.8419 25.6424 15.6105 26.6755C15.6635 26.7285 15.6901 26.8079 15.7696 26.9139C18.897
+                                        31.5497 22.793 34.9669 26.7155 36.5033C31.6716 38.4636 33.0233 38.3046 34.0835 38.1722H34.4545C35.4881 38.0397 38.0325 36.6623 38.5095 35.3113C39.0131 33.9073 39.0131 32.7417 38.9336 32.5298ZM44.3933 7.62914C39.4902
+                                        2.72848 32.9438 0.0264901 25.9999 0C11.6615 0 0 11.6821 0 25.9868C0 30.5695 1.19266 35.0464 3.47195 38.9934C3.52496 39.0993 3.55146 39.2318 3.49846 39.3378L0.132517 51.894L13.2252 48.7947H13.3312C13.3312 48.7947 13.4903
+                                        48.7947 13.5698 48.8477C17.3598 50.9139 21.6533 52 25.9999 52C40.3383 52 51.9998 40.3444 51.9998 26.0132C52.0263 19.0728 49.323 12.5563 44.3933 7.62914ZM25.9999 47.6291C22.3689 47.6291 18.791 46.7285 15.6635 45.0066L14.0203
+                                        44.1325L6.99692 45.7748C6.8644 45.8278 6.67887 45.7748 6.57286 45.6424C6.46685 45.5364 6.41384 45.351 6.46685 45.2185L8.24258 38.543L7.26195 36.7947C5.3537 33.5364 4.37307 29.8013 4.37307 25.9868C4.37307 14.0927 14.0733
+                                        4.39735 25.9999 4.39735C31.7777 4.39735 37.2109 6.64901 41.3189 10.7285C45.4004 14.8079 47.6267 20.2384 47.6267 26.0132C47.6267 37.9338 37.9265 47.6291 25.9999 47.6291ZM38.2445 32.1325L37.8735 31.947C37.1579 31.6027
+                                        33.9774 30.0397 33.3944 29.8278C32.7848 29.6159 32.6788 29.6159 32.4402 29.9868C31.9897 30.6755 30.7175 32.1854 30.32 32.6093C29.6309 33.404 28.8888 33.1656 28.3322 32.9007C28.2262 32.8477 28.0937 32.7682 27.9081 32.7152C26.9805
+                                        32.3179 25.0723 31.4702 22.899 29.5364C20.9642 27.8146 19.6126 25.6954 19.1355 24.8477C18.5789 23.8676 19.1885 23.2583 19.5066 22.9404C19.6921 22.755 19.9041 22.4901 20.1161 22.2517C20.2221 22.0927 20.3547 21.9603 20.4607
+                                        21.8013C20.7257 21.5099 20.8317 21.298 20.9907 20.9801L21.0703 20.7947C21.1763 20.5828 21.1763 20.3709 21.0173 20.053C20.9377 19.9205 20.6727 19.2583 20.3282 18.4106C19.8776 17.298 19.2945 15.894 18.9765 15.1258C18.5789
+                                        14.3046 18.2874 14.2781 17.8898 14.2781C17.4923 14.2517 17.0682 14.2517 16.6442 14.2517C16.4056 14.2517 15.7696 14.3046 15.213 14.9404L15.0805 15.0728C14.4179 15.7881 13.0132 17.2715 13.0132 20.1325C13.0132 22.9934
+                                        14.8419 25.6424 15.6105 26.6755C15.6635 26.7285 15.6901 26.8079 15.7696 26.9139C18.897 31.5497 22.793 34.9669 26.7155 36.5033C31.6716 38.4636 33.0233 38.3046 34.0835 38.1722H34.4545C35.4881 38.0397 38.0325 36.6623 38.5095
+                                        35.3113C39.0131 33.9073 39.0131 32.7417 38.9336 32.5298C38.8806 32.4503 38.5625 32.2914 38.2445 32.1325ZM38.9336 32.5298C38.9336 32.5298 38.5625 32.2914 38.2445 32.1325L37.8735 31.947C37.1579 31.6027 33.9774 30.0397
+                                        33.3944 29.8278C32.7848 29.6159 32.6788 29.6159 32.4402 29.9868C31.9897 30.6755 30.7175 32.1854 30.32 32.6093C29.6309 33.404 28.8888 33.1656 28.3322 32.9007C28.2262 32.8477 28.0937 32.7682 27.9081 32.7152C26.9805 32.3179
+                                        25.0723 31.4702 22.899 29.5364C20.9642 27.8146 19.6126 25.6954 19.1355 24.8477C18.5789 23.8676 19.1885 23.2583 19.5066 22.9404C19.6921 22.755 19.9041 22.4901 20.1161 22.2517C20.2221 22.0927 20.3547 21.9603 20.4607 21.8013C20.7257
+                                        21.5099 20.8317 21.298 20.9907 20.9801L21.0703 20.7947C21.1763 20.5828 21.1763 20.3709 21.0173 20.053C20.9377 19.9205 20.6727 19.2583 20.3282 18.4106C19.8776 17.298 19.2945 15.894 18.9765 15.1258C18.5789 14.3046 18.2874
+                                        14.2781 17.8898 14.2781C17.4923 14.2517 17.0682 14.2517 16.6442 14.2517C16.4056 14.2517 15.7696 14.3046 15.213 14.9404L15.0805 15.0728C14.4179 15.7881 13.0132 17.2715 13.0132 20.1325C13.0132 22.9934 14.8419 25.6424
+                                        15.6105 26.6755C15.6635 26.7285 15.6901 26.8079 15.7696 26.9139C18.897 31.5497 22.793 34.9669 26.7155 36.5033C31.6716 38.4636 33.0233 38.3046 34.0835 38.1722H34.4545C35.4881 38.0397 38.0325 36.6623 38.5095 35.3113C39.0131
+                                        33.9073 39.0131 32.7417 38.9336 32.5298ZM38.9336 32.5298C38.9336 32.5298 38.5625 32.2914 38.2445 32.1325L37.8735 31.947C37.1579 31.6027 33.9774 30.0397 33.3944 29.8278C32.7848 29.6159 32.6788 29.6159 32.4402 29.9868C31.9897
+                                        30.6755 30.7175 32.1854 30.32 32.6093C29.6309 33.404 28.8888 33.1656 28.3322 32.9007C28.2262 32.8477 28.0937 32.7682 27.9081 32.7152C26.9805 32.3179 25.0723 31.4702 22.899 29.5364C20.9642 27.8146 19.6126 25.6954 19.1355
+                                        24.8477C18.5789 23.8676 19.1885 23.2583 19.5066 22.9404C19.6921 22.755 19.9041 22.4901 20.1161 22.2517C20.2221 22.0927 20.3547 21.9603 20.4607 21.8013C20.7257 21.5099 20.8317 21.298 20.9907 20.9801L21.0703 20.7947C21.1763
+                                        20.5828 21.1763 20.3709 21.0173 20.053C20.9377 19.9205 20.6727 19.2583 20.3282 18.4106C19.8776 17.298 19.2945 15.894 18.9765 15.1258C18.5789 14.3046 18.2874 14.2781 17.8898 14.2781C17.4923 14.2517 17.0682 14.2517 16.6442
+                                        14.2517C16.4056 14.2517 15.7696 14.3046 15.213 14.9404L15.0805 15.0728C14.4179 15.7881 13.0132 17.2715 13.0132 20.1325C13.0132 22.9934 14.8419 25.6424 15.6105 26.6755C15.6635 26.7285 15.6901 26.8079 15.7696 26.9139C18.897
+                                        31.5497 22.793 34.9669 26.7155 36.5033C31.6716 38.4636 33.0233 38.3046 34.0835 38.1722H34.4545C35.4881 38.0397 38.0325 36.6623 38.5095 35.3113C39.0131 33.9073 39.0131 32.7417 38.9336 32.5298Z " fill="white
+                                        " fill-opacity="0.25 " />
+              
+                                <span class="text-[20px] m:text-[60px] font-light italic text-white ml-[20px] " style="--tw-text-opacity: 0.25 ">info@ilorinemiratemall.com</span>
+                            </a>
+                        </div>
+
+                        <div class="flex flex-row flex-col m:flex-row items-center justify-between px-30 m:px-90 mt-[18px] m:mt-[unset] ">
+
+                            <div class="credits flex-col m:hidden order-3 w-full flex relative items-center ">
+                                <div class="button__credits relative group inline-block ">
+                                    <a href="https://colesolomon.me " target="_blank " class="font-regular uppercase inline-flex border-[1px] borderLightwhite rounded-full overflow-hidden relative bg-transparent text-white text-opacity-30 2xs:text-[10px]
+                                        m:text-14 ">
+                                        <div class="w-full 2xs:px-[15px] m:px-10 2xs:py-[10px] m:py-10 flex items-center text-center justify-center transition-transform delay-75 duration-1000 in-out-sine transform translate-y-[0%] group-hover:translate-y-[-100%] ">BY COLESOLOMON.ME</div>
+                                        <div class="absolute top-0 left-0 w-full h-full flex items-center text-center justify-center delay-75 transition-transform duration-1000 in-out-sine transform translate-y-[100%] group-hover:translate-y-[0%]
+                                        " aria-hidden="true ">BY COLESOLOMON.ME</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="credits flex-col m:w-2/6 hidden m:block ">
+                                <div class="button__credits top-[3.3rem] left-[-2.5rem] rotate-[-90deg] relative group inline-block ">
+                                    <a href="https://colesolomon.me/ " target="_blank " class="font-regular uppercase inline-flex border-[1px] borderLightwhite rounded-full overflow-hidden relative bg-transparent text-white text-opacity-30 text-14 ">
+                                        <div class="w-full px-10 py-10 flex items-center text-center justify-center transition-transform delay-75 duration-1000 in-out-sine transform translate-y-[0%] group-hover:translate-y-[-100%] ">BY COLESOLOMON.ME</div>
+                                        <div class="absolute top-0 left-0 w-full h-full flex items-center text-center justify-center delay-75 transition-transform duration-1000 in-out-sine transform translate-y-[100%] group-hover:translate-y-[0%]
+                                        " aria-hidden="true ">BY COLESOLOMON.ME</div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="2xs:hidden m:flex flex-col m:w-1/2 ">
+                                <div class="footer__line relative mb-130 ">
+                                    <h3 class="text-[3.7rem] font-light text-white text-center leading-[105%] uppercase js-s-fade "></h3>
+                                </div>
+
+                                <div class="footer__menu hidden m:block ">
+                                    <nav class="footer__nav ">
+                                        <ul class="footer__nav__list flex items-center ">
+                                            <li class="footer__nav__list--item menu__link relative pr-30 m:pr-80 pointer-events-auto ">
+                                                <a class="footer__link block leading-[2rem] overflow-hidden js-links pointer-events-auto " href="# ">
+                                                    <div class="text-white relative ">
+                                                        <span class="menu__link__label block m:text-14 font-regular uppercase ">
+                                                                    CONTACT US                  </span>
+                                                        <span class="menu__link__label block absolute top-0 left-0 m:text-14 font-regular uppercase ">
+                                                CONTACT US                                      </span>
+                                                    </div>
+                                                </a>
+                                            </li>
+
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+                        <div class="absolute md:top-[-18rem] m:bottom-0 left-[0] m:left-[19rem] pointer-events-none js-s-scale " data-last>
+                            <svg width="1176 " height="365 " viewBox="0 0 1176 365 " fill="none " xmlns="http://www.w3.org/2000/svg ">
+                <g opacity="0.03 ">
+                    <path d="M664.149 391.787H636.007C629.301 391.787 626.305 388.759 626.305 381.961V158.799C626.314 153.381 624.993 148.046 622.462 143.274C619.403 136.365 608.968 125.925 593.852 125.925L528.404 125.89C498.894 125.89 489.117 132.775
+                                        478.601 160.962C478.601 160.962 401.385 367.021 399.497 374.24C397.604 367.009 320.428 160.985 320.428 160.985C309.901 132.77 300.008 125.913 270.031 125.913H250.76V167.935H259.383C269.339 167.935 273.621 170.764 277.003
+                                        179.579L374.795 433.85H423.068L520.918 179.439C523.746 170.852 528.179 167.947 538.481 167.947H569.797C576.232 167.947 579.499 171.255 579.499 177.779V400.976C579.492 408.709 582.189 416.195 587.111 422.107C588.284
+                                        423.581 589.609 424.923 591.065 426.111C596.906 431.097 604.301 433.826 611.94 433.815H664.149V391.787Z " fill="white " />
+                    <path d="M795.647 391.771H767.506C764.933 391.769 762.466 390.733 760.647 388.891C758.828 387.049 757.805 384.55 757.804 381.945V32.8741C757.804 24.1553 754.384 15.7937 748.297 9.62858C742.209 3.46349 733.953 0 725.345 0H673.136V42.0278H701.278C703.851
+                                        42.0278 706.318 43.0631 708.138 44.9058C709.957 46.7485 710.979 49.2478 710.979 51.8538V400.924C710.979 405.242 711.818 409.517 713.449 413.506C715.08 417.495 717.47 421.119 720.485 424.172C723.499 427.224 727.078 429.646
+                                        731.016 431.298C734.954 432.95 739.176 433.799 743.438 433.799H795.647V391.771Z " fill="white " />
+                    <path d="M1078.4 257.027C1041.3 242.185 1009.26 229.372 1009.26 201.105C1009.26 167.739 1043.47 160.731 1072.17 160.731C1087.88 160.731 1120.31 167.383 1120.31 187.929V192.43H1164.75V176.548C1164.75 134.105 1108.66 118.68 1070.97
+                                        118.68C1003.64 118.68 961.82 151.174 961.82 203.478C961.82 258.926 1013.6 280.051 1059.29 298.651C1096.46 313.808 1128.55 326.89 1128.55 354.392C1128.55 385.174 1098.73 398.951 1069.18 398.951C1013.08 398.951 980.503
+                                        355.24 980.185 354.801L977.669 351.364L950.306 384.764L951.755 386.863C953.302 389.072 990.314 440.979 1068.59 440.979C1130.8 440.979 1175.94 404.06 1175.94 353.194C1175.94 296.038 1124.09 275.305 1078.34 257.003
+                                        " fill="white " />
+                    <path d="M288.909 391.788C278.953 391.788 274.676 388.959 271.294 380.144L173.496 125.873H124.04L26.242 380.144C22.8599 388.959 18.5774 391.788 8.62734 391.788H-0.0299072V433.816H19.2411C49.2241 433.816 59.1164 426.924 69.6379 398.744C69.6379
+                                        398.744 146.843 192.726 148.707 185.489C150.606 192.726 227.777 398.744 227.777 398.744C238.304 426.954 248.196 433.816 278.179 433.816H297.445V391.788H288.909Z " fill="white " />
+                    <path d="M899.135 391.784C892.429 391.784 889.433 388.757 889.433 381.958V158.796C889.442 153.378 888.121 148.043 885.59 143.271C882.525 136.362 872.096 125.922 856.975 125.922H804.76V167.938H832.902C839.337 167.938 842.603 171.246
+                                        842.603 177.77V400.967C842.594 408.439 845.11 415.69 849.731 421.514C851.177 423.447 852.88 425.169 854.793 426.628C860.54 431.301 867.692 433.844 875.062 433.836H927.266V391.808L899.135 391.784Z " fill="white " />
+                    <path d="M184.26 21.0947C172.89 21.0947 161.953 27.3843 158.155 36.9881C150.855 55.4652 143.184 74.3514 139.519 84.1657H167.222C179.539 84.1657 187.33 78.601 190.73 70.137L210.353 21.124L184.26 21.0947Z " fill="white " />
+                    <path d="M603.357 84.1705C618.908 84.1705 631.516 71.4019 631.516 55.6511C631.516 39.9004 618.908 27.1318 603.357 27.1318C587.805 27.1318 575.198 39.9004 575.198 55.6511C575.198 71.4019 587.805 84.1705 603.357 84.1705Z " fill="white " />
+                    <path d="M866.02 84.1705C881.572 84.1705 894.179 71.4019 894.179 55.6511C894.179 39.9004 881.572 27.1318 866.02 27.1318C850.468 27.1318 837.861 39.9004 837.861 55.6511C837.861 71.4019 850.468 84.1705 866.02 84.1705Z " fill="white " />
+                </g>
+            </svg>
+                        </div>
+
+                    </footer>
+                </section>
+
+            </div>
+
+            <div class="c-cursor | js-cursor ">
+                <div class="c-cursor__inner | js-cursor-inner ">
+                    <svg class="js-cursor-arrow " width="78 " height="89 " viewBox="0 0 78 89 " fill="none " xmlns="http://www.w3.org/2000/svg ">
+            <path d="M37.6879 6.33859L36.4568 7.56755C35.641 8.38211 35.641 9.70286 36.4568 10.5176L67.5339 41.5449H2.08929C0.935478 41.5449 0 42.4788 0 43.6308V45.3691C0 46.521 0.935478 47.455 2.08929 47.455H67.5339L36.4568 78.4823C35.641 79.2969 35.641
+                                        80.6176 36.4568 81.4323L37.6879 82.6613C38.5038 83.4759 39.8267 83.4759 40.6425 82.6613L77.388 45.9749C78.2039 45.1603 78.2039 43.8396 77.388 43.0248L40.6425 6.33859C39.8267 5.52386 38.5038 5.52386 37.6879 6.33859Z
+                                        " fill="white "/>
+        </svg>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <script src="js/theme3860.js?v=1 "></script>
+</body>
+
+
+
+</html>
